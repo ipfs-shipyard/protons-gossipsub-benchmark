@@ -13,20 +13,20 @@ $ npm start
 > node dist/src/index.js
 
 === Encoding ===
-protons@3.x.x (protons-runtime@1.x.x) x 154,021 ops/sec ±0.86% (94 runs sampled)
-protons@4.x.x (protons-runtime@2.x.x) x 306,177 ops/sec ±0.30% (98 runs sampled)
-protons@5.x.x (protons-runtime@3.x.x) x 3,780,725 ops/sec ±0.23% (98 runs sampled)
-protons@6.x.x (protons-runtime@4.x.x) x 2,432,652 ops/sec ±0.17% (96 runs sampled)
-protons@7.x.x (protons-runtime@5.x.x) x 2,184,108 ops/sec ±0.18% (100 runs sampled)
+protons@3.x.x (protons-runtime@1.x.x) x 285,366 ops/sec ±0.36% (98 runs sampled)
+protons@4.x.x (protons-runtime@2.x.x) x 296,157 ops/sec ±0.14% (98 runs sampled)
+protons@5.x.x (protons-runtime@3.x.x) x 3,890,864 ops/sec ±0.33% (97 runs sampled)
+protons@6.x.x (protons-runtime@4.x.x) x 2,289,671 ops/sec ±0.33% (100 runs sampled)
+protons@7.x.x (protons-runtime@5.x.x) x 2,096,811 ops/sec ±0.20% (99 runs sampled)
 
 Fastest is protons@5.x.x (protons-runtime@3.x.x)
 
 === Decoding ===
-protons@3.x.x (protons-runtime@1.x.x) x 366,135 ops/sec ±0.38% (96 runs sampled)
-protons@4.x.x (protons-runtime@2.x.x) x 473,783 ops/sec ±0.48% (97 runs sampled)
-protons@5.x.x (protons-runtime@3.x.x) x 5,221,976 ops/sec ±0.18% (99 runs sampled)
-protons@6.x.x (protons-runtime@4.x.x) x 2,885,841 ops/sec ±0.15% (97 runs sampled)
-protons@7.x.x (protons-runtime@5.x.x) x 5,163,024 ops/sec ±0.18% (99 runs sampled)
+protons@3.x.x (protons-runtime@1.x.x) x 360,139 ops/sec ±0.25% (99 runs sampled)
+protons@4.x.x (protons-runtime@2.x.x) x 459,712 ops/sec ±0.31% (93 runs sampled)
+protons@5.x.x (protons-runtime@3.x.x) x 4,924,941 ops/sec ±0.27% (94 runs sampled)
+protons@6.x.x (protons-runtime@4.x.x) x 2,798,137 ops/sec ±0.36% (98 runs sampled)
+protons@7.x.x (protons-runtime@5.x.x) x 4,976,756 ops/sec ±0.33% (98 runs sampled)
 
-Fastest is protons@5.x.x (protons-runtime@3.x.x)
+Fastest is protons@7.x.x (protons-runtime@5.x.x)
 ```
