@@ -11,6 +11,8 @@ import { RPC as RPC4 } from './protons4/rpc.js'
 import { RPC as RPC5 } from './protons5/rpc.js'
 import { RPC as RPC6 } from './protons6/rpc.js'
 import { RPC as RPC7 } from './protons7/rpc.js'
+import { RPC as RPC8 } from './protons8/rpc.js'
+import { RPC as RPC9 } from './protons9/rpc.js'
 
 const rpc = {
   subscriptions: [],
@@ -48,6 +50,12 @@ new Benchmark.Suite()
   .add('protons@7.x.x (protons-runtime@5.x.x)', () => {
     RPC7.encode(rpc)
   })
+  .add('protons@8.x.x (protons-runtime@6.x.x)', () => {
+    RPC8.encode(rpc)
+  })
+  .add('protons@9.x.x (protons-runtime@7.x.x)', () => {
+    RPC9.encode(rpc)
+  })
   .on('error', (err: Error) => {
     console.error(err)
   })
@@ -77,6 +85,12 @@ new Benchmark.Suite()
   })
   .add('protons@7.x.x (protons-runtime@5.x.x)', () => {
     RPC7.decode(bytes)
+  })
+  .add('protons@8.x.x (protons-runtime@6.x.x)', () => {
+    RPC8.decode(bytes)
+  })
+  .add('protons@9.x.x (protons-runtime@7.x.x)', () => {
+    RPC9.decode(bytes)
   })
   .on('error', (err: Error) => {
     console.error(err)
